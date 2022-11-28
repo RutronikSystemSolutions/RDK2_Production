@@ -40,7 +40,7 @@ After the initial test is complete the LED1 will shine green and the brightness 
 
 ### Debugging
 
-If you successfully have imported the application, the debug configurations are already prepared to use with a the KitProg3, MiniProg4, or J-link. Open the ModusToolbox perspective and find the **Quick Panel**. Click on the desired debug launch configuration and wait until the programming completes and debug process starts.
+If you successfully have imported the application, the debug configurations are already prepared to use with a the KitProg3, MiniProg4, or J-link. Open the ModusToolbox perspective and find the **Quick Panel**. Click on the desired debug launch configuration and wait until the programming completes and the debugging process starts.
 
 <img src="images/quick_panel.png" style="zoom:100%;" />
 
