@@ -4,42 +4,6 @@
     <Node type="root">
         <Node type="device">
             <Field name="bcdUSB" value="0x200"/>
-            <Field name="bDeviceClass" value="0x00"/>
-            <Field name="bDeviceSubClass" value="0x00"/>
-            <Field name="bDeviceProtocol" value="0"/>
-            <Field name="bMaxPacketSize0" value="8"/>
-            <Field name="idVendor" value="0x4B4"/>
-            <Field name="idProduct" value="0x8051"/>
-            <Field name="bcdDevice" value="0"/>
-            <Field name="iManufacturer" value=""/>
-            <Field name="iProduct" value=""/>
-            <Field name="iSerialNumber" value="Empty"/>
-            <Node type="configuration">
-                <Field name="iConfiguration" value=""/>
-                <Field name="Self Powered" value="Disable"/>
-                <Field name="Remote Wakeup" value="Disable"/>
-                <Field name="bMaxPower" value="50"/>
-                <Node type="interface">
-                    <Node type="alternate">
-                        <Field name="bInterfaceClass" value="0"/>
-                        <Field name="bInterfaceSubClass" value="0"/>
-                        <Field name="bInterfaceProtocol" value="0"/>
-                        <Field name="iInterface" value=""/>
-                        <Node type="endpoint">
-                            <Field name="endpointNum" value="EP1"/>
-                            <Field name="direction" value="OUT"/>
-                            <Field name="Transfer Type" value="Bulk"/>
-                            <Field name="Synchronization Type" value="No Synchronization"/>
-                            <Field name="Usage Type" value="Data endpoint"/>
-                            <Field name="wMaxPacketSize" value="64"/>
-                            <Field name="bInterval" value="0"/>
-                        </Node>
-                    </Node>
-                </Node>
-            </Node>
-        </Node>
-        <Node type="device">
-            <Field name="bcdUSB" value="0x200"/>
             <Field name="bDeviceClass" value="0x02"/>
             <Field name="bDeviceSubClass" value="0x00"/>
             <Field name="bDeviceProtocol" value="0"/>
