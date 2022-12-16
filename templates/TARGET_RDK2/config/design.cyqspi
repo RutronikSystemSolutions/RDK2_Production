@@ -14,7 +14,7 @@
             <WriteEnable>true</WriteEnable>
             <Encrypt>false</Encrypt>
             <DataSelect>QUAD_SPI_DATA_0_3</DataSelect>
-            <MemoryConfigsPath>../../../RutDevKit-PSoC62_QSPI_PSRAM_XIP/TARGET_RutDevKit-PSoC62/COMPONENT_BSP_DESIGN_MODUS/APS6404L-3SQR-ZR.cymem</MemoryConfigsPath>
+            <MemoryConfigsPath>C:/Users/Gintaras.DESKTOP-0NHE83K/mtw/RDK2_Production/templates/TARGET_RDK2/config/APS6404L-3SQR-ZR.cymem</MemoryConfigsPath>
             <ConfigDataInFlash>true</ConfigDataInFlash>
             <MergeTimeout>CY_SMIF_MERGE_TIMEOUT_DISABLED</MergeTimeout>
         </SlotConfig>
