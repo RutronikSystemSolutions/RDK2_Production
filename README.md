@@ -10,6 +10,8 @@ This firmware example is preprogrammed in a factory and used to test most of the
 
 - [ModusToolbox® software](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/) **v3.x** [built with **v3.0**]
 
+  **NOTE:** This code example will only be created successfully if you have a correct path to the memory configuration file APS6404L-3SQR-ZR.cymem set in qspi-configurator tool Settings->User Memory Folder. You may download the whole BSP from here: [TARGET_RDK2](https://github.com/RutronikSystemSolutions/TARGET_RDK2). The memory file resides in a config folder.
+
 ## Supported toolchains (make variable 'TOOLCHAIN')
 
 - GNU Arm&reg; Embedded Compiler v11.3.1 (`GCC_ARM`) - Default value of `TOOLCHAIN`
