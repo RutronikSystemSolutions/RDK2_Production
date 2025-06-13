@@ -274,8 +274,8 @@ int main(void)
     cy_en_usb_dev_ep_state_t epState;
     uint32_t count;
     uint8_t widget_id;
-    struct tm new_date_time;
-    struct tm old_date_time;
+    struct tm new_date_time = {0};
+    struct tm old_date_time = {0};
     uint8_t rs485_byte;
     volatile int32_t arduino_analog[6] = {0};
     uint8_t  volatile *Xip_Buffer_8;     /* Xip  buffer for 8-bit data */
