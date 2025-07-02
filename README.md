@@ -8,7 +8,7 @@ This firmware example is preprogrammed in a factory and used to test most of the
 
 ## Requirements
 
-- [ModusToolbox® software](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/) **v3.x** [built with **v3.0**]
+- [ModusToolbox® software](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/) **v2025.4.0** [built with **v3.0**]
 
   **NOTE:** This code example will only be created successfully if you have a correct path to the memory configuration file APS6404L-3SQR-ZR.cymem set in qspi-configurator tool Settings->User Memory Folder. You may download the whole BSP from here: [TARGET_RDK2](https://github.com/RutronikSystemSolutions/TARGET_RDK2). The memory file resides in a config folder.
 
@@ -137,7 +137,7 @@ All the Arduino ADC inputs are shown as well.
 
 The date and time shown in the terminal window will notify if the RTC peripheral is functional.
 
-After the initial test is complete the LED1 will shine green and the brightness will depend on the CapSense slider position. If the test fails due to some peripheral faults, the LED2 stays on indefinitely.
+After the initial test is complete, the LED1 will shine green and the brightness will depend on the CapSense slider position. If the test fails due to some peripheral faults, the LED2 stays on indefinitely.
 
 
 
@@ -145,7 +145,7 @@ After the initial test is complete the LED1 will shine green and the brightness 
 
 ### Debugging
 
-If you successfully have imported the application, the debug configurations are already prepared to use with a the KitProg3, MiniProg4, or J-link. Open the ModusToolbox perspective and find the **Quick Panel**. Click on the desired debug launch configuration and wait until the programming completes and the debugging process starts.
+If you have successfully imported the application, the debug configurations are already prepared to use with the KitProg3, MiniProg4. Open the ModusToolbox perspective and find the **Quick Panel**. Click on the desired debug launch configuration and wait until the programming completes and the debugging process starts.
 
 <img src="images/quick_panel.png" style="zoom:100%;" />
 
